@@ -50,6 +50,25 @@ LeetCode_Journey/
   - Time and space complexity
   - Clean and readable code
 
+## Quick Start for New Problem File
+
+Use the helper script to create a standardized solution file:
+
+```bash
+python new_problem.py --id 1 --title "Two Sum" --lang python --topic "array/hash-table"
+```
+
+It will auto-generate:
+
+- `solutions/python/0001_two_sum.py`
+- Header fields filled: id, title, slug, topic
+
+Supported languages:
+
+- `python`
+- `cpp`
+- `java`
+
 ---
 
 If you are also learning algorithms, welcome to star and exchange ideas.
